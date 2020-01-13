@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles
   
   movie_index = 0 
-  new_array = {}
+  new_array = []
   while movie_index < directors_database[0][:movies].length do
   new_array << directors_database[0][:movies][movie_index][:title]
   
