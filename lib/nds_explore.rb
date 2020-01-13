@@ -18,9 +18,8 @@ def print_first_directors_movie_titles
   
   end   
   
-  new_array.join "/n"
+  p new_array.join "/n"
   
-  p new_array
 end
 
 #pretty_print_nds(directors_database)
