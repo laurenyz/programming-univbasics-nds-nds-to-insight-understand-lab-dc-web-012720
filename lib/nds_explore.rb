@@ -7,12 +7,12 @@ def pretty_print_nds(nds)
   pp (nds)
 end
 
-def print_first_directors_movie_titles(nds)
+def print_first_directors_movie_titles
   
   movie_index = 0 
   
-  while movie_index < nds[0][:movies].length do
-  p nds[0][:movies][movie_index][:title]
+  while movie_index < directors_database[0][:movies].length do
+  p directors_database[0][:movies][movie_index][:title]
   
   movie_index += 1
   
@@ -20,4 +20,4 @@ def print_first_directors_movie_titles(nds)
 end
 
 #pretty_print_nds(directors_database)
-print_first_directors_movie_titles(directors_database)
+print_first_directors_movie_titles
