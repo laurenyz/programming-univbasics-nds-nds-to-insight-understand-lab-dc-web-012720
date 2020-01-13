@@ -12,7 +12,7 @@ def print_first_directors_movie_titles(nds)
   movie_index = 0 
   
   while movie_index < nds[0][:movies].length do
-  p nds[0][:movies][0][:title]
+  p nds[0][:movies][movie_index][:title]
   
   movie_index += 1
   
